@@ -1,0 +1,16 @@
+# Build directories
+build/
+cmake-build-*/
+bin/
+lib/
+
+# IDE files
+.idea/
+.vs/
+*.sln
+*.vcxproj*
+*.user
+
+# JUCE artifacts
+*_artefacts/
+JUCE/
