@@ -114,8 +114,8 @@ public:
         // Corner labels
         g.setFont(juce::FontOptions(11.0f));
         g.setColour(juce::Colour(0x88ffffff));
-        g.drawText("OUTPUT", bounds.getX() + 6, bounds.getY() + 4, 60, 16, juce::Justification::left);
-        g.drawText("INPUT", bounds.getRight() - 56, bounds.getBottom() - 18, 50, 16, juce::Justification::right);
+        g.drawText("OUTPUT", juce::Rectangle<float>(bounds.getX() + 6.0f, bounds.getY() + 4.0f, 60.0f, 16.0f), juce::Justification::left);
+        g.drawText("INPUT", juce::Rectangle<float>(bounds.getRight() - 56.0f, bounds.getBottom() - 18.0f, 50.0f, 16.0f), juce::Justification::right);
     }
 
 private:

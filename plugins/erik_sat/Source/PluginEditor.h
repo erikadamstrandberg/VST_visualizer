@@ -23,9 +23,6 @@ public:
         const float radius = juce::jmin(width / 2.0f, height / 2.0f) - 6.0f;
         const float centreX = x + width * 0.5f;
         const float centreY = y + height * 0.5f;
-        const float rx = centreX - radius;
-        const float ry = centreY - radius;
-        const float rw = radius * 2.0f;
         const float currentAngle = rotaryStartAngle + sliderPosProportional * (rotaryEndAngle - rotaryStartAngle);
 
         // Background track arc
